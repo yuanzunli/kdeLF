@@ -1,3 +1,7 @@
-# kdeLF
+# kdeLF: estimate luminosity functions via kernel density estimation
 
-coming soon...
+## Installation
+Coming soon ...
+
+
+
