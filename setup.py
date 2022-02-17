@@ -2,7 +2,7 @@ import os
 import sys
 
 version = {}
-with open('kdeLF/__init__.py') as kde:
+with open('src/kdeLF/__init__.py') as kde:
     exec(kde.read(), version)
 __version__ = version['__version__']
 
