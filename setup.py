@@ -15,7 +15,7 @@ from numpy.distutils.system_info import get_info
 
 # Fortran extension
 fortran_t = Extension(name = 'kdeLF.kde_fortran_t', 
-		sources = ['kdeLF/kdeLF.f90'])
+		sources = ['src/kdeLF/kdeLF.f90'])
 
 description = 'A flexible method for estimating luminosity functions via Kernel Density Estimation'
 
