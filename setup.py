@@ -1,45 +1,58 @@
-import os
-import sys
+#!/usr/bin/env python3
 
-version = {}
-with open('src/kdeLF/__init__.py') as kde:
-    exec(kde.read(), version)
-__version__ = version['__version__']
 
 try:
     import setuptools
 except ImportError:
     pass
-from numpy.distutils.core import setup, Extension
-from numpy.distutils.system_info import get_info
-
-# Fortran extension
-fortran_t = Extension(name = 'kdeLF.kde_fortran_t', 
-		sources = ['src/kdeLF/kdeLF.f90'])
 
 description = 'A flexible method for estimating luminosity functions via Kernel Density Estimation'
 
-this_directory = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+with open("README.md", "r") as fh:
+    """ load package description from readme file """
+    long_description = fh.read()
 
-setup(name = 'kdeLF',     
-      packages=['kdeLF'],
-      ext_modules=[fortran_t],
-      version=__version__,
-      description=description,
-      #long_description = '', # 
-      long_description=long_description,    #
-      long_description_content_type="text/markdown",
-      author = 'Zunli Yuan',
-      author_email = 'yzl@hunnu.edu.cn',
-      url = 'https://github.com/yuanzunli/kdeLF',
-      install_requires=[
+
+def configuration(parent_package='',top_path=None):
+    from numpy.distutils.misc_util import Configuration
+    config = Configuration('kdeLF',parent_package,top_path)
+
+    # Fortran extension
+    config.add_extension(name = 'kde_fortran',
+                         sources = ['kdeLF/mod_dqag_dqags.f90', 'kdeLF/quad2d.f90', 'kdeLF/kdeLF.f90'],
+                         extra_compile_args=['-fopenmp'],
+                         extra_link_args=['-liomp5'],
+                         )
+    return config
+
+if __name__ == "__main__":
+    from numpy.distutils.core import setup
+    setup(configuration=configuration,
+            packages=['kdeLF'],
+            version="1.0.2",
+            description=description, 
+            long_description=long_description,    
+            long_description_content_type="text/markdown",
+            author = 'Zunli Yuan',
+            author_email = 'yzl@hunnu.edu.cn',
+            maintainer="Wenjie Wang",
+            maintainer_email="wangwenjie327@foxmail.com",
+            url = 'https://github.com/yunzunli/kdeLF',
+            include_package_data=True,
+            package_data={'kdeLF': ['examples/data/*.dat']},
+            license='MIT',
+            install_requires=[
       			'numpy >= 1.13',
       			'scipy',
       			'astropy',
       			'emcee',
-      			'matplotlib'
+      			'matplotlib',
+      			'h5py',
+      			'corner',
+      			'tqdm',
       			],
-      python_requires=">=3.6")
-#!/usr/bin/env python
+            python_requires=">=3.6")
+
+
+
+
