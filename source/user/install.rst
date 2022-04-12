@@ -3,21 +3,36 @@
 Installation
 ============
 
-  coming soon...
+Using pip
+---------
 
+The recommended way to install the stable version of kdeLF is using
+`pip <http://www.pip-installer.org/>`_
 
-Distribution packages
----------------------
+.. code-block:: bash
 
-  coming soon...
+    pip install -U kdeLF
+
+We have uploaded several `.whl` files to the `PyPI <https://pypi.org/project/kdeLF/>`_ web to support as many platforms as possible. If your platforms happens to be an exception, then the pip installation may fail. In this situation, you need to install the `Intel fortran Compiler <https://www.intel.com/content/www/us/en/developer/articles/news/free-intel-software-developer-tools.html>`_ first, and then try the pip installation again. If you have problems installing, please open an issue at `GitHub <https://github.com/yuanzunli/kdeLF/issues>`_.
+
 
 From source
 -----------
 
-  coming soon...
+You can also install *kdeLF* after a download from `GitHub <https://github.com/yuanzunli/kdeLF/>`_. Note that this requires a `Intel fortran Compiler <https://www.intel.com/content/www/us/en/developer/articles/news/free-intel-software-developer-tools.html>`_ to be installed in advance.
+
+.. code-block:: bash
+
+    git clone https://github.com/yuanzunli/kdeLF.git
+    cd kdeLF
+    pip install .
 
 
 Test the installation
 ---------------------
 
-  coming soon...
+To make sure that the installation went alright, you can execute the built-in test program in kdeLF by running the following command:
+
+.. code-block:: bash
+
+    python3 -m kdeLF.test_kdeLF
