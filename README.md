@@ -1,6 +1,6 @@
 # kdeLF
 
-**kdeLF** is an MIT licensed Python implementation of Yuan et al.’s [method for estimating luminosity functions via Kernel Density Estimation (KDE)](https://arxiv.org/abs/2203.06700). It is a wrapper to compiled fortran code that does the heavy lifting, and is therefore relatively fast. We are open to all questions, feedback, commentary, and suggestions as long as they are constructive. Discussions should always come in the form of git issues. 
+**kdeLF** is an MIT licensed Python implementation of Yuan et al.’s [Kernel Density Estimation (KDE) method for estimating luminosity functions](https://arxiv.org/abs/2203.06700). It is a wrapper to compiled fortran code that does the heavy lifting, and is therefore relatively fast. We are open to all questions, feedback, commentary, and suggestions as long as they are constructive. Discussions should always come in the form of git issues. 
 
 ### Documentation
 
