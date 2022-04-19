@@ -30,7 +30,7 @@ pip install .
 
 ### Test the installation
 
-To make sure that the installation went alright, you can execute the built-in test program in *kdeLF* by running the following command:
+To make sure that the installation went alright, you can execute the built-in test program in **kdeLF** by running the following command:
 
 ```
 python3 -m kdeLF.test_kdeLF
