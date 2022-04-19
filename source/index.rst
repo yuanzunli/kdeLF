@@ -2,14 +2,14 @@ kdeLF
 =====
 
 **kdeLF** is an MIT licensed Python implementation of Yuan et al.'s
-`method for estimating luminosity functions via Kernel Density Estimation (KDE) 
+`Kernel Density Estimation (KDE) method for estimating luminosity functions 
 <https://arxiv.org/abs/2203.06700>`_ and these pages will
 show you how to use it.
 
 This documentation won't teach you too much about KDE but there are a lot
 of resources available for that (try `this one
 <https://en.wikipedia.org/wiki/Kernel_density_estimation>`_).
-Our `paper <https://arxiv.org/abs/2003.13373>`_ explaining
+Our `paper <https://arxiv.org/abs/2203.06700>`_ explaining
 the kdeLF algorithm and implementation in detail. kdeLF is being actively developed on `GitHub <https://github.com/yuanzunli/kdeLF>`_.
 
 .. image:: https://img.shields.io/badge/GitHub-yuanzunli%2FkdeLF-blue.svg?style=flat
