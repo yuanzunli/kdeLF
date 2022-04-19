@@ -10,9 +10,18 @@ This documentation won't teach you too much about KDE but there are a lot
 of resources available for that (try `this one
 <https://en.wikipedia.org/wiki/Kernel_density_estimation>`_).
 Our `paper <https://arxiv.org/abs/2003.13373>`_ explaining
-the kdeLF algorithm and implementation in detail.
+the kdeLF algorithm and implementation in detail. kdeLF is being actively developed on `GitHub <https://github.com/yuanzunli/kdeLF>`_.
 
-kdeLF is being actively developed on `GitHub <https://github.com/yuanzunli/kdeLF>`_.
+.. image:: https://img.shields.io/badge/GitHub-yuanzunli%2FkdeLF-blue.svg?style=flat
+    :target: https://github.com/yuanzunli/kdeLF
+.. image:: https://img.shields.io/badge/arXiv-2203.06700-red
+    :target: https://arxiv.org/abs/2203.06700
+.. image:: https://img.shields.io/badge/arXiv-2003.13373-brightgreen
+    :target: https://arxiv.org/abs/2003.13373
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
+    :target: https://github.com/yuanzunli/kdeLF/blob/master/LICENSE
+.. image:: https://pepy.tech/badge/kdeLF
+    :target: https://pepy.tech/project/kdeLF
 
 
 Basic Usage
