@@ -16,7 +16,7 @@ The recommended way to install the stable version of *kdeLF* is using [pip](http
 pip install -U kdeLF
 ```
 
-We have uploaded several `.whl` files to the [PyPI](https://pypi.org/project/kdeLF) web to support as many platforms as possible. If your platforms happens to be an exception, then the pip installation may fail. In this situation, you need to install the [Intel fortran Compiler](https://www.intel.com/content/www/us/en/developer/articles/news/free-intel-software-developer-tools.html) first, and then try the pip installation again.  If you have problems installing, please open an issue at [GitHub](https://github.com/yuanzunli/kdeLF/issues).
+We have uploaded several `.whl` files to the [PyPI](https://pypi.org/project/kdeLF) web to support as many platforms as possible. If your platforms happens to be an exception, then the pip installation may fail. In this situation, you need to install the [Intel fortran Compiler](https://www.intel.com/content/www/us/en/developer/articles/news/free-intel-software-developer-tools.html) first, and then try the pip installation again.  In addition, the version of numpy should be 1.21.0 If you have problems installing, please open an issue at [GitHub](https://github.com/yuanzunli/kdeLF/issues).
 
 ### From source
 
