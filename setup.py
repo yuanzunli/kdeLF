@@ -42,7 +42,7 @@ if __name__ == "__main__":
             package_data={'kdeLF': ['examples/data/*.dat']},
             license='MIT',
             install_requires=[
-      			'numpy >= 1.13',
+      			'numpy >= 1.21',
       			'scipy',
       			'astropy',
       			'emcee',
