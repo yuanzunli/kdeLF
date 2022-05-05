@@ -102,7 +102,7 @@ Please cite the following papers if you found this code useful in your
 research:
 
     
-- Yuan, Z., Zhang, X., Wang, J., Cheng, X., & Wang, W. 2022, ApJS, 248, 1 (`arXiv <https://arxiv.org/abs/2003.13373>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y>`_, `BibTeX <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y/exportcitation>`_).
+- Yuan, Z., Zhang, X., Wang, J., Cheng, X., & Wang, W. 2022, ApJS, 260, 10 (`arXiv <https://arxiv.org/abs/2003.13373>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y>`_, `BibTeX <https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y/exportcitation>`_).
 
 - Yuan, Z., Jarvis, M. J., & Wang, J. 2020, ApJS, 248, 1 (`arXiv <https://arxiv.org/abs/2003.13373>`_, `ADS <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y>`_, `BibTeX <https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y/exportcitation>`_).
 
