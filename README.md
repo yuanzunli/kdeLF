@@ -39,7 +39,7 @@ python3 -m kdeLF.test_kdeLF
 ## Citation
 
 Please cite the following papers if you found this code useful in your research:
-1. Yuan, Z., Zhang, X., Wang, J., Cheng, X., & Wang, W. 2022, ApJS, 260, 10 ([arXiv](https://arxiv.org/abs/2203.06700), [ADS](https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y), [BibTeX](https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y/exportcitation)).
+1. Yuan, Z., Zhang, X., Wang, J., Cheng, X., & Wang, W. 2022, ApJS, 260, 10 ([arXiv](https://arxiv.org/abs/2203.06700), [ADS](https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y/abstract), [BibTeX](https://ui.adsabs.harvard.edu/abs/2022ApJS..260....10Y)).
 2. Yuan, Z., Jarvis, M. J., & Wang, J. 2020, ApJS, 248, 1 ([arXiv](https://arxiv.org/abs/2003.13373), [ADS](https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y), [BibTeX](https://ui.adsabs.harvard.edu/abs/2020ApJS..248....1Y/exportcitation)).
 
 
